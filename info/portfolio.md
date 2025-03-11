@@ -3,7 +3,7 @@
 
 以下ポートフォリオ情報：
 
-ヘッダー：tomoki.dev(左上に表示)
+ヘッダー：tomoking.dev(左上に表示)
 
 # Tomoki Arita (allegorywrite, 有田朋樹)
 

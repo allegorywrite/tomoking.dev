@@ -1,6 +1,6 @@
-# tomoki.dev
+# tomoking.dev
 
-有田朋樹のポートフォリオサイト（https://tomoki.dev/）
+有田朋樹のポートフォリオサイト（https://tomoking.dev/）
 
 ## 概要
 
@@ -24,8 +24,8 @@
 1. リポジトリをクローン
 
 ```bash
-git clone https://github.com/allegorywrite/tomoki.dev.git
-cd tomoki.dev
+git clone https://github.com/allegorywrite/tomoking.dev.git
+cd tomoking.dev
 ```
 
 2. ローカルサーバーを起動
@@ -62,12 +62,12 @@ hugo --gc --minify
 
 1. Netlifyのサイト設定で「Domain settings」を選択
 2. 「Add custom domain」をクリック
-3. `tomoki.dev` を入力して追加
+3. `tomoking.dev` を入力して追加
 4. DNSレコードを設定:
    - Netlifyのネームサーバーを使用する場合:
      - ドメインレジストラの管理画面でネームサーバーをNetlifyのものに変更
    - 既存のDNSプロバイダーを使用する場合:
-     - CNAMEレコードを追加: `tomoki.dev` → `[your-netlify-site-name].netlify.app`
+     - CNAMEレコードを追加: `tomoking.dev` → `[your-netlify-site-name].netlify.app`
 5. HTTPSを有効化（Netlifyが自動的に証明書を発行）
 
 ## ライセンス

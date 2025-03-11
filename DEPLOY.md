@@ -1,12 +1,12 @@
-# tomoki.devへのデプロイ手順
+# tomoking.devへのデプロイ手順
 
-このドキュメントでは、tomoki.devドメインにHugoサイトをデプロイする手順を説明します。
+このドキュメントでは、tomoking.devドメインにHugoサイトをデプロイする手順を説明します。
 
 ## 1. GitHubリポジトリの作成
 
 1. [GitHub](https://github.com/) にログイン
 2. 右上の「+」ボタンをクリックし、「New repository」を選択
-3. リポジトリ名を入力（例: `tomoki.dev`）
+3. リポジトリ名を入力（例: `tomoking.dev`）
 4. 説明を入力（任意）
 5. リポジトリの可視性を選択（Public または Private）
 6. 「Create repository」をクリック
@@ -24,7 +24,7 @@ git add .
 git commit -m "Initial commit"
 
 # リモートリポジトリを追加（URLは作成したGitHubリポジトリのものに置き換えてください）
-git remote add origin https://github.com/allegorywrite/tomoki.dev.git
+git remote add origin https://github.com/allegorywrite/tomoking.dev.git
 
 # メインブランチをプッシュ
 git push -u origin main
@@ -43,13 +43,13 @@ git push -u origin main
    - 公開ディレクトリ: `public`
 6. 「Deploy site」をクリック
 
-## 4. カスタムドメイン(tomoki.dev)の設定
+## 4. カスタムドメイン(tomoking.dev)の設定
 
 ### 4.1. Netlifyでカスタムドメインを追加
 
 1. Netlifyのサイト設定で「Domain settings」を選択
 2. 「Add custom domain」をクリック
-3. `tomoki.dev` を入力して追加
+3. `tomoking.dev` を入力して追加
 4. 「Verify」をクリック
 
 ### 4.2. DNSレコードの設定
@@ -80,7 +80,7 @@ git push -u origin main
 
 ## 5. デプロイの確認
 
-1. ブラウザで `https://tomoki.dev` にアクセス
+1. ブラウザで `https://tomoking.dev` にアクセス
 2. サイトが正しく表示されることを確認
 
 ## トラブルシューティング
