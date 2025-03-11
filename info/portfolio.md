@@ -18,7 +18,7 @@ instagram: https://www.instagram.com/allegorywrite
 
 # About Me
 
-- 和田唯我 / Yuiga Wada
+- 有田朋樹 / Tomoki Arita
     - 慶應義塾大学 理工学研究科 システム統合工学専修 M2
         - 慶應理工 → 修士
 - Ex Intern at Tokyo Robotics, Inc. (about 2 years)
