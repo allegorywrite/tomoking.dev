@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "f8832fb327da465b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1ea49095b511efd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c82fbcde22c2c5e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "info/portfolio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "portfolio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8519503ed117d1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aeb1a03cfe6d57c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5551d6816703bb4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ecaff6e99a48b426",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "060a75d553f78830",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6c4cf7ad4a20a36",
+    "type": "split",
+    "children": [
+      {
+        "id": "e405bf60f3bfe5b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f93c17ad637c3a02",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "info/portfolio.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for portfolio"
+            }
+          },
+          {
+            "id": "48de039ce5d04620",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "info/portfolio.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from portfolio"
+            }
+          },
+          {
+            "id": "56a100e7402d1181",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ae28ba5f390d8a78",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "info/portfolio.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of portfolio"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c82fbcde22c2c5e1",
+  "lastOpenFiles": [
+    "themes",
+    "static",
+    "layouts",
+    "i18n",
+    "data",
+    "content",
+    "assets",
+    "archetypes/default.md",
+    "archetypes",
+    "hugo.toml",
+    "quickstart/themes",
+    "quickstart/static",
+    "quickstart/archetypes/default.md",
+    "public/images/Screenshot from 2025-03-11 20-56-52.png",
+    "public/images/S__102588422-2048x1536.jpg",
+    "content/_index.md",
+    "public/images/mitou-it-2024.png",
+    "public/images/logo.png",
+    "public/images/mitou-conference-2024.png",
+    "static/images/mitou-conference-2024.png",
+    "static/images/mitou-it-2024.png",
+    "static/images/logo.png",
+    "public/posts/post-3/bryce-canyon.jpg",
+    "themes/ananke/content/posts/post-3/index.md",
+    "themes/ananke/content/posts/post-3/bryce-canyon.jpg",
+    "themes/ananke/content/posts/post-2.md",
+    "themes/ananke/content/posts/post-1.md",
+    "themes/ananke/content/posts/_index.md",
+    "themes/ananke/content/_index.md",
+    "themes/ananke/archetypes/default.md",
+    "themes/ananke/README.md",
+    "content/achievements/mitou-conference-2024.md",
+    "content/achievements/mitou-it-2024.md",
+    "content/achievements/_index.md",
+    "content/projects/dynamic-nft.md",
+    "content/projects/mahoroba.md",
+    "content/projects/wagmi-music.md",
+    "content/projects/_index.md",
+    "themes/PaperMod/README.md",
+    "info/portfolio.md",
+    "Untitled.md",
+    "portfolio.md"
+  ]
+}
