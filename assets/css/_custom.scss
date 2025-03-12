@@ -260,3 +260,78 @@
 [theme=dark] .single .content > h2 > .header-mark::before {
   color: #708a3f !important; // 緑がかった色に変更（ダークテーマ）
 }
+
+// タグバッジスタイル
+.tag-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+
+  &.javascript {
+    background-color: #f7df1e;
+    color: #000;
+  }
+
+  &.ros {
+    background-color: #223344;
+  }
+
+  &.cpp {
+    background-color: #0077b6;
+  }
+
+  &.cuda {
+    background-color: #ff6f61;
+  }
+
+  &.python {
+    background-color: #306998;
+  }
+
+  &.jetson {
+    background-color: #0077b6;
+  }
+
+  &.solidity {
+    background-color: #3c3c3c;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+[theme=dark] {
+  .tag-badge {
+    &.javascript {
+      background-color: #f7df1e;
+      color: #000;
+    }
+
+    &.ros {
+      background-color: #334455;
+    }
+
+    &.robotics {
+      background-color: #0088cc;
+    }
+
+    &.ai {
+      background-color: #ff7f71;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tag-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "info/portfolio.md",
+                "file": "content/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "portfolio"
+              "title": "_index"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "c82fbcde22c2c5e1",
   "lastOpenFiles": [
+    "info/portfolio.md",
     "themes/LoveIt/theme.toml",
     "themes/LoveIt/static/images/gohugo-default-sample-hero-image.jpg",
     "themes/LoveIt/static/images",
@@ -181,7 +182,6 @@
     "themes/LoveIt/netlify.toml",
     "themes/LoveIt/layouts/partials/func/style/GetResource.html",
     "themes/LoveIt/layouts/partials/func/style/GetMainCSS.html",
-    "themes/LoveIt/layouts/partials/func/social/getShareLink.html",
     "themes/LoveIt/layouts/partials/svg/tiktok.svg",
     "themes/LoveIt/layouts/partials/svg/new-window.svg",
     "themes/LoveIt/images/tn.png",
