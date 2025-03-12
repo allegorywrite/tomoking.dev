@@ -11,6 +11,7 @@ title: "Tomoki Arita"
       - 慶應理工 機械工学科 → システム統合工学専修 
       - 制御工学・マルチエージェント分野
   - Ex Intern at Tokyo Robotics, Inc. (about 2 years)
+      - マルチエージェント経路計画，点群認識，模倣学習，etc.
   - 未踏IT'24 (落合陽一PM)
 
 ## Projects / Honors
