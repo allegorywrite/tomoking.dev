@@ -10,7 +10,8 @@ title: "Tomoki Arita"
   - 慶應義塾大学 理工学研究科 M2
       - 慶應理工 機械工学科 → システム統合工学専修 
       - 制御工学・マルチエージェント分野
-  - Ex Intern at Tokyo Robotics, Inc. (about 2 years)
+  - Ex Intern at Tokyo Robotics, Inc.
+      - **April 2022 → April 2024**
       - マルチエージェント経路計画，点群認識，模倣学習，etc.
   - 未踏IT'24 (落合陽一PM)
 
@@ -146,7 +147,7 @@ title: "Tomoki Arita"
       </a>
     </div>
     <div class="card-content">
-      <h3>草熱とドローン</h3>
+      <h3>草熱とドローン<div class="tag-badge note">note</div><div class="tag-badge star">22</div></h3>
       <p>草熱(くさいきれ)という言葉は，生い茂った草が日光に照りつけられて発する熱気と匂いのこと指すそうだ．福島のキウイ農園に帰ると，この草熱を感じる．この匂いが．なぜ自分がここ数年福島でキウイ栽培に関わっているか考えるきっかけになりそうだと思い巡らした．</p>
       <div class="tag-badge robotics">robotics</div>
     </div>
@@ -159,7 +160,7 @@ title: "Tomoki Arita"
       </a>
     </div>
     <div class="card-content">
-      <h3>Dynamic NFTを作る（決定版）<div class="tag-badge solidity">solidity</div></h3>
+      <h3>Dynamic NFTを作る（決定版）<div class="tag-badge zenn">zenn</div><div class="tag-badge solidity">solidity</div><div class="tag-badge star">56</div></h3>
       <p>ブロックチェーン上で動くスマートコントラクトは，そのままでは外部から情報を取得することができません．情報を得るためには，オラクルと呼ばれるレイヤーを利用して，オフチェーンとオンチェーンの橋渡しをする必要があります．
 本記事では，分散型オラクルネットワークであるChainlinkを利用して，OpenSeaからユーザー情報を取得し， NFTの画像として表示する会員証NFTの作り方を紹介します．
 ちなみに，このように外部から情報を受け取って動的に変化するNFTは，DynamicNFTと呼ばれます．</p>
@@ -173,8 +174,21 @@ title: "Tomoki Arita"
       </a>
     </div>
     <div class="card-content">
-      <h3>Omnichain NFTを作る（決定版）<div class="tag-badge solidity">solidity</div></h3>
+      <h3>Omnichain NFTを作る（決定版）<div class="tag-badge zenn">zenn</div><div class="tag-badge solidity">solidity</div><div class="tag-badge star">22</div></h3>
       <p>Ethereum,Polygon,Solanaなど，ブロックチェーンには様々な種類がありますが． 異なるチェーン上に同一のトークンを持ち込むことはできません．そのため資産を異なるチェーンに移動する際は，主にブリッジという仕組みが用いられます．ブリッジについてはわかりやすい記事がすでに存在するのでこちらをご覧ください．</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <a href="https://www.instagram.com/allegorywrite/" target="_blank">
+        <img src="/images/Screenshot from 2025-03-12 22-01-26.png" alt="Dynamic NFT">
+      </a>
+    </div>
+    <div class="card-content">
+      <h3>言外の言に依って理外の理に依らない<div class="tag-badge instagram">instagram</div><div class="tag-badge follower">1000+</div></h3>
+      <p>近代から日本のメディアとして君臨した新聞は、海外から「新しい日本の現人神（アラヒトガミ）」と評された。
+　あらゆる国の新聞は、そこが独裁国家でもない限り報道者としての立場を打ち出す。物事を見る視点を定めなければ、事実に対して公正であるとか、不当であるといった判断を下せるはずがないからだ。しかし、日本の新聞、特に一般紙においてはこれがほとんど見られない。というのが日本新聞の現人神たる理由だろう。</p>
     </div>
   </div>
 </div>

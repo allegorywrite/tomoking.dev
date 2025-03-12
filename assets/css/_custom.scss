@@ -94,6 +94,25 @@
   color: #333;
 }
 
+.home-profile .links a[href*="linkedin"] {
+  font-size: 0;
+}
+
+.home-profile .links a[href*="linkedin"]::before {
+  content: "\f08c";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #333;
+}
+
+.home-profile .links a[href*="linkedin"]::after {
+  content: "LinkedIn";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
 .home-profile .links a:hover {
   background-color: #708a3f;
   color: white;
@@ -266,7 +285,7 @@
   display: inline-block;
   padding: 0.25rem 0.75rem;
   margin: 0.25rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   font-size: 0.8rem;
   font-weight: 500;
   color: white;
@@ -300,6 +319,54 @@
 
   &.solidity {
     background-color: #3c3c3c;
+  }
+
+  &.qiita {
+    background-color: #55c500;
+  }
+
+  &.zenn {
+    background-color: #3ea8ff;
+  }
+
+  &.instagram {
+    background-color: #e1306c;
+  }
+
+  &.note {
+    background-color: #000000;
+  }
+  
+  &.star {
+    background-color: #ffffff; // 背景を白に
+    color: #3ea8ff; // 文字を青色に
+    border: 2px solid #3ea8ff; // 青色の枠線
+    display: inline-flex;
+    align-items: center;
+    
+    &::before {
+      content: "\f006"; // Font Awesome の星枠アイコン (regular star)
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400; // Regular スタイル
+      margin-right: 0.3rem;
+      color: #3ea8ff; // アイコンを青色に
+    }
+  }
+  
+  &.follower {
+    background-color: #ffffff; // 背景を白に
+    color: #3ea8ff; // 文字を青色に
+    border: 2px solid #3ea8ff; // 青色の枠線
+    display: inline-flex;
+    align-items: center;
+    
+    &::before {
+      content: "\f007"; // Font Awesome のユーザーアイコン
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400; // Regular スタイル
+      margin-right: 0.3rem;
+      color: #3ea8ff; // アイコンを青色に
+    }
   }
 
   &:hover {

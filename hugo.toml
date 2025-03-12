@@ -217,9 +217,9 @@ title = "tomoking.dev"
   # 主页的社交信息设置
   [params.social]
     GitHub = "allegorywrite"
-    Linkedin = ""
     X = "allegory_write"
-    Instagram = "allegorywrite"
+    Linkedin = "allegorywrite"
+    Instagram = ""
     Facebook = ""
     Telegram = ""
     Medium = ""
