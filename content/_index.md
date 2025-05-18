@@ -14,18 +14,30 @@ title: "Tomoki Arita"
       - **April 2022 → April 2024**
       - マルチエージェント経路計画，点群認識，模倣学習，etc.
   - 未踏IT'24 (落合陽一PM)
+      - **June 2024 → March 2025**
+  - Technical Staff at AIST(産業技術総合研究所)
+      - **Ongoing**
+  - Part-time engineer at certain startup
+      - **Ongoing**
 
 ## Projects / Honors
 
 - **有田朋樹**，和田唯我，機械学習に基づく中山間地域向け農業用散布ドローン群，2024年度未踏IT人材発掘・育成事業，2024．
   - 未踏IT'24で落合陽一PMに採択頂きました．
     - [公募結果](https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-1.html) / [未踏名鑑](https://scrapbox.io/mitou-meikan/%E6%9C%89%E7%94%B0_%E6%9C%8B%E6%A8%B9) / [成果報告会スライド](https://speakerdeck.com/allegorywrite/wei-ta-cheng-guo-bao-gao-hui-suraido)
+  - 成果報告会を行いました．
+    - [Youtube](https://www.youtube.com/watch?v=ZuuZMLYRMW8&list=PLi57U_f9scILwMvoh4Xj3JNnzRT-8-am9)
   - 未踏会議2024に採択者代表として登壇&LTさせて頂きました．
     - [Youtube](https://www.youtube.com/live/tHMvTA7gd70) / [未踏会議スライド](https://speakerdeck.com/allegorywrite/wei-ta-naitoltsuraido?slide=13)
 
 - **有田朋樹**，滑川徹，Stein Particle Filterを用いた単調環境における協調自己位置推定，計測自動制御学会　第12回制御部門マルチシンポジウム，2024．
+[pdf](https://speakerdeck.com/allegorywrite/stein-particle-filterwoyong-ita-dan-diao-huan-jing-niokeruxie-diao-zi-ji-wei-zhi-tui-ding)
 - **有田朋樹**，足助零弥，農業用小型ドローンによる果樹の栽培支援，KLL-ONE 学生ビジネスコンテスト優秀賞，2024．
+[pdf](https://speakerdeck.com/allegorywrite/nong-ye-yong-xiao-xing-doronniyoruguo-shu-nozai-pei-zhi-yuan-kll-one-xue-sheng-bizinesukontesuto)
+, [site](https://sites.google.com/view/kllincubation#h.p0p1j1ahx0r6)
 - **有田朋樹**，機械学習に基づく中山間地域向け農業用散布ドローン群，マルチエージェント・マルチロボットプランニング研究会，2024．
+[pdf](https://speakerdeck.com/allegorywrite/ji-jie-xue-xi-niji-dukuzhong-shan-jian-di-yu-xiang-kenong-ye-yong-san-bu-doronqun-marutiezientomarutirobotutopuranninguyan-jiu-hui-2024)
+, [site](https://sites.google.com/view/multi-agent-robot-planning-24)
 
 <div class="card-container">
   <div class="card">
@@ -58,7 +70,7 @@ title: "Tomoki Arita"
 
   <div class="card">
     <div class="card-image">
-      <a href="#" target="_blank">
+      <a href="https://speakerdeck.com/allegorywrite/stein-particle-filterwoyong-ita-dan-diao-huan-jing-niokeruxie-diao-zi-ji-wei-zhi-tui-ding" target="_blank">
         <img src="/images/Screenshot from 2025-03-11 19-46-30.png" alt="論文">
       </a>
     </div>
