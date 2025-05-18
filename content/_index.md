@@ -116,7 +116,7 @@ title: "Tomoki Arita"
       </a>
     </div>
     <div class="card-content">
-      <h3>[web3 app] WAGMI Music
+      <h3>[web3 app] WAGMI Music 
       <div class="tag-badge javascript">javascript</div>
       <div class="tag-badge solidity">solidity</div>
       </h3>
@@ -147,7 +147,7 @@ title: "Tomoki Arita"
       </a>
     </div>
     <div class="card-content">
-      <h3>草熱とドローン<div class="tag-badge note">note</div><div class="tag-badge star">22</div></h3>
+      <h3>草熱とドローン　<div class="tag-badge note">note</div><div class="tag-badge star">22</div></h3>
       <p>草熱(くさいきれ)という言葉は，生い茂った草が日光に照りつけられて発する熱気と匂いのこと指すそうだ．福島のキウイ農園に帰ると，この草熱を感じる．この匂いが．なぜ自分がここ数年福島でキウイ栽培に関わっているか考えるきっかけになりそうだと思い巡らした．</p>
       <div class="tag-badge robotics">robotics</div>
     </div>
@@ -186,7 +186,7 @@ title: "Tomoki Arita"
       </a>
     </div>
     <div class="card-content">
-      <h3>言外の言に依って理外の理に依らない<div class="tag-badge instagram">instagram</div><div class="tag-badge follower">1000+</div></h3>
+      <h3>言外の言に依って理外の理に依らない <div class="tag-badge instagram">instagram</div><div class="tag-badge follower">1000+</div></h3>
       <p>近代から日本のメディアとして君臨した新聞は、海外から「新しい日本の現人神（アラヒトガミ）」と評された。
 　あらゆる国の新聞は、そこが独裁国家でもない限り報道者としての立場を打ち出す。物事を見る視点を定めなければ、事実に対して公正であるとか、不当であるといった判断を下せるはずがないからだ。しかし、日本の新聞、特に一般紙においてはこれがほとんど見られない。というのが日本新聞の現人神たる理由だろう。</p>
     </div>
