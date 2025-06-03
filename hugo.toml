@@ -1,6 +1,6 @@
 baseURL = "https://tomoking.dev/"
 languageCode = "ja-jp"
-title = "tomoking.dev"
+title = "Tomoki Arita (有田朋樹)"
 
 [module]
   [module.hugoVersion]
