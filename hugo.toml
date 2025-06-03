@@ -196,7 +196,7 @@ title = "tomoking.dev"
       title = "<span style=\"font-size: 1.5rem; font-weight: bold;\">Tomoki Arita (allegorywrite, 有田朋樹)</span>"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "<span style=\"font-size: 1.2rem;\">Keio Univ. M2<br>未踏IT'24</span>"
+      subtitle = "<span style=\"font-size: 1.2rem;\">Keio Univ. M2<br>未踏IT'24 スーパークリエータ</span>"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = false

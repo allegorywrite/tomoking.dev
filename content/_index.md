@@ -29,6 +29,8 @@ title: "Tomoki Arita"
     - [Youtube](https://www.youtube.com/watch?v=ZuuZMLYRMW8&list=PLi57U_f9scILwMvoh4Xj3JNnzRT-8-am9)
   - 未踏会議2024に採択者代表として登壇&LTさせて頂きました．
     - [Youtube](https://www.youtube.com/live/tHMvTA7gd70) / [未踏会議スライド](https://speakerdeck.com/allegorywrite/wei-ta-naitoltsuraido?slide=13)
+  - スーパークリエータに認定頂きました．
+    - [IPA公式サイト](https://www.ipa.go.jp/jinzai/mitou/koubo/career/2024/2024-supercreator-11.html)
 
 - **有田朋樹**，滑川徹，Stein Particle Filterを用いた単調環境における協調自己位置推定，計測自動制御学会　第12回制御部門マルチシンポジウム，2024．
 [pdf](https://speakerdeck.com/allegorywrite/stein-particle-filterwoyong-ita-dan-diao-huan-jing-niokeruxie-diao-zi-ji-wei-zhi-tui-ding)
