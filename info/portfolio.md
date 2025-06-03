@@ -5,7 +5,7 @@
 
 ヘッダー：tomoking.dev(左上に表示)
 
-# Tomoki Arita (allegorywrite, 有田朋樹)
+# Tomoki Arita (allegorywrite / 有田朋樹)
 
 下のロゴをポートフォリオのロゴにする．ページ上部中央に配置．
 ![[VXDWsJwjUokbgf91738892871_1738892977.png]]

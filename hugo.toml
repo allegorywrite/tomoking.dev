@@ -1,6 +1,6 @@
 baseURL = "https://tomoking.dev/"
 languageCode = "ja-jp"
-title = "Tomoki Arita (有田朋樹)"
+title = "Tomoki Arita (allegorywrite / 有田朋樹)"
 
 [module]
   [module.hugoVersion]
@@ -193,7 +193,7 @@ title = "Tomoki Arita (有田朋樹)"
       avatarURL = "/images/logo.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = "<span style=\"font-size: 1.5rem; font-weight: bold;\">Tomoki Arita (allegorywrite, 有田朋樹)</span>"
+      title = "<span style=\"font-size: 1.5rem; font-weight: bold;\">Tomoki Arita (allegorywrite / 有田朋樹)</span>"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
       subtitle = "<span style=\"font-size: 1.2rem;\">Keio Univ. M2<br>未踏IT'24 スーパークリエータ</span>"
