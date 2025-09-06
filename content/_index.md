@@ -15,7 +15,7 @@ title: "Tomoki Arita"
       - マルチエージェント経路計画，点群認識，模倣学習，etc.
   - 未踏IT'24 (落合陽一PM)
       - **June 2024 → March 2025**
-  - Technical Staff at AIST(産業技術総合研究所)
+  - Research Asssistant at AIST(産業技術総合研究所)
       - **Ongoing**
   - Part-time engineer at certain startup
       - **Ongoing**
@@ -153,7 +153,20 @@ title: "Tomoki Arita"
 
 ## Blog
 
+[博士課程の姿勢について](/posts/attitude/)
+
 <div class="card-container">
+  <!-- <div class="card">
+    <div class="card-image">
+      <a href="/posts/test-blog/">
+        <img src="/images/logo.png" alt="Test Blog">
+      </a>
+    </div>
+    <div class="card-content">
+      <h3>テスト記事<div class="tag-badge blog">blog</div></h3>
+      <p>トップのカードから遷移するテスト投稿です。</p>
+    </div>
+  </div> -->
   <div class="card">
     <div class="card-image">
       <a href="https://note.com/tomoking513/n/n148f54c8c434" target="_blank">
