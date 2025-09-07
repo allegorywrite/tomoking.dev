@@ -153,12 +153,12 @@ title: "Tomoki Arita"
 
 ## Blog
 
-[博士課程の姿勢について](/posts/attitude/)
+[博士課程の姿勢について](/post/attitude/)
 
 <div class="card-container">
   <!-- <div class="card">
     <div class="card-image">
-      <a href="/posts/test-blog/">
+      <a href="/post/hello/">
         <img src="/images/logo.png" alt="Test Blog">
       </a>
     </div>
