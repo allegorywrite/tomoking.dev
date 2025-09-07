@@ -10,8 +10,8 @@ toc:
   enable: true
   auto: true
 lightgallery: true
-fontScale: 1.2
-lineHeight: 1.6
+fontScale: 1.1
+lineHeight: 1.7
 ---
 
 # 基本姿勢
