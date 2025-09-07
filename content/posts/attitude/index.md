@@ -10,7 +10,7 @@ toc:
   enable: true
   auto: true
 lightgallery: true
-fontScale: 1.4
+fontScale: 1.2
 lineHeight: 1.6
 ---
 
