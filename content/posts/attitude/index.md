@@ -2,7 +2,7 @@
 title: "博士前期課程回顧録"
 date: 2025-09-06T00:00:00+09:00
 lastmod: 2025-09-06T00:00:00+09:00
-draft: true
+draft: false
 description: "博士前期課程回顧録"
 # tags: ["test", "blog"]
 # categories: ["misc"]
