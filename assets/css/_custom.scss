@@ -251,6 +251,36 @@
   margin-bottom: 1.5rem;
 }
 
+/* Per-post font scaling for titles and headings */
+.page.single {
+  /* Defaults (used when CSS variables are not set inline) */
+  --post-font-scale: 1;
+  --post-line-height: var(--global-line-height);
+}
+
+/* Title and subtitle scale */
+.page.single .single-title {
+  font-size: calc(1.6rem * var(--post-font-scale, 1));
+  line-height: var(--post-line-height, 140%);
+}
+
+.page.single .single-subtitle {
+  font-size: calc(1.2rem * var(--post-font-scale, 1));
+  line-height: var(--post-line-height, 100%);
+}
+
+/* Content heading scale */
+.page.single .content > h2 { font-size: calc(1.5rem * var(--post-font-scale, 1)); }
+.page.single .content > h3 { font-size: calc(1.375rem * var(--post-font-scale, 1)); }
+.page.single .content > h4 { font-size: calc(1.25rem * var(--post-font-scale, 1)); }
+.page.single .content > h5 { font-size: calc(1.125rem * var(--post-font-scale, 1)); }
+.page.single .content > h6 { font-size: calc(1rem * var(--post-font-scale, 1)); }
+
+/* Code inside headings scale */
+.page.single .content > h2 > code { font-size: calc(1.25rem * var(--post-font-scale, 1)); }
+.page.single .content > h3 > code { font-size: calc(1.125rem * var(--post-font-scale, 1)); }
+.page.single .content > h4 > code { font-size: calc(1rem * var(--post-font-scale, 1)); }
+
 // Drone animation styles
 .drone-container {
   position: fixed;

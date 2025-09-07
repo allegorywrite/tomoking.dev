@@ -3,6 +3,40 @@
 {{- $caption := cond .IsNamedParams (.Get "caption") (.Get 2) | .Page.RenderString -}}
 {{- $options = dict "Caption" $caption | merge $options -}}
 
+{{- /* Build inline style from width/height/radius when provided */ -}}
+{{- $style := "" -}}
+{{- if .IsNamedParams -}}
+  {{- with .Get "w" -}}
+    {{- $style = printf "%swidth: %s;" $style . -}}
+  {{- end -}}
+  {{- with .Get "width" -}}
+    {{- $style = printf "%swidth: %s;" $style . -}}
+  {{- end -}}
+  {{- with .Get "h" -}}
+    {{- $style = printf "%sheight: %s;" $style . -}}
+  {{- end -}}
+  {{- with .Get "height" -}}
+    {{- $style = printf "%sheight: %s;" $style . -}}
+  {{- end -}}
+  {{- with .Get "r" -}}
+    {{- $r := . -}}
+    {{- if not (strings.HasSuffix $r "%") -}}
+      {{- $r = printf "%s%%" $r -}}
+    {{- end -}}
+    {{- $style = printf "%sborder-radius: %s;" $style $r -}}
+  {{- end -}}
+  {{- with .Get "radius" -}}
+    {{- $r := . -}}
+    {{- if not (strings.HasSuffix $r "%") -}}
+      {{- $r = printf "%s%%" $r -}}
+    {{- end -}}
+    {{- $style = printf "%sborder-radius: %s;" $style $r -}}
+  {{- end -}}
+{{- end -}}
+{{- with $style -}}
+  {{- $options = dict "Style" . | merge $options -}}
+{{- end -}}
+
 {{- if .IsNamedParams -}}
     {{- $options = dict "Title" (.Get "title") | merge $options -}}
     {{- $options = dict "SrcSmall" (.Get "src_s") | merge $options -}}

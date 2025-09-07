@@ -30,7 +30,8 @@
             data-sizes="auto"
             alt="{{ $alt }}"
             {{- with $width }} width="{{ . }}"{{ end }}
-            {{- with $height }} height="{{ . }}"{{ end }} />
+            {{- with $height }} height="{{ . }}"{{ end }}
+            {{- with .Style }} style="{{ . | safeCSS }}"{{ end }} />
     </a>
 {{- else -}}
     <img
@@ -42,5 +43,6 @@
         alt="{{ $alt }}"
         title="{{ .Title | default $alt }}"
         {{- with $width }} width="{{ . }}"{{ end }}
-        {{- with $height }} height="{{ . }}"{{ end }} />
+        {{- with $height }} height="{{ . }}"{{ end }}
+        {{- with .Style }} style="{{ . | safeCSS }}"{{ end }} />
 {{- end -}}

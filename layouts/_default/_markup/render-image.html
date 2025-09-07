@@ -1,10 +1,54 @@
+{{/* Support query params in image URL for width/height/radius (%): e.g., img.jpg?w=80%25&r=50 */}}
+{{- $dest := .Destination -}}
+{{- $parts := split $dest "?" -}}
+{{- $src := index $parts 0 -}}
+{{- $qs := "" -}}
+{{- if ge (len $parts) 2 -}}
+  {{- $qs = index $parts 1 -}}
+{{- end -}}
+{{- $w := "" -}}
+{{- $h := "" -}}
+{{- $r := "" -}}
+{{- if $qs -}}
+  {{- range (split $qs "&") -}}
+    {{- $kv := split . "=" -}}
+    {{- if eq (len $kv) 2 -}}
+      {{- $k := index $kv 0 -}}
+      {{- $v := index $kv 1 | replace "%25" "%" -}}
+      {{- if or (eq $k "w") (eq $k "width") -}}
+        {{- $w = $v -}}
+      {{- else if or (eq $k "h") (eq $k "height") -}}
+        {{- $h = $v -}}
+      {{- else if or (eq $k "r") (eq $k "radius") -}}
+        {{- $r = $v -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $style := "" -}}
+{{- with $w -}}{{- $style = printf "%swidth: %s;" $style . -}}{{- end -}}
+{{- with $h -}}{{- $style = printf "%sheight: %s;" $style . -}}{{- end -}}
+{{- with $r -}}
+  {{- $val := . -}}
+  {{- if not (strings.HasSuffix $val "%") -}}
+    {{- $val = printf "%s%%" $val -}}
+  {{- end -}}
+  {{- $style = printf "%sborder-radius: %s;" $style $val -}}
+{{- end -}}
+
+{{- $imgOpts := dict "Src" $src "Title" .Text "Resources" .Page.Resources -}}
+{{- with $style -}}
+  {{- $imgOpts = dict "Style" . | merge $imgOpts -}}
+{{- end -}}
+
 {{- if .Title -}}
-    <figure>
-        {{- dict "Src" .Destination "Title" .Text "Caption" .Title "Linked" true "Resources" .Page.Resources | partial "plugin/img.html" -}}
-        <figcaption class="image-caption">
-            {{- .Title | safeHTML -}}
-        </figcaption>
-    </figure>
+  <figure>
+    {{- dict "Caption" .Title "Linked" true | merge $imgOpts | partial "plugin/img.html" -}}
+    <figcaption class="image-caption">
+      {{- .Title | safeHTML -}}
+    </figcaption>
+  </figure>
 {{- else -}}
-    {{- dict "Src" .Destination "Title" .Text "Resources" .Page.Resources | partial "plugin/img.html" -}}
+  {{- partial "plugin/img.html" $imgOpts -}}
 {{- end -}}

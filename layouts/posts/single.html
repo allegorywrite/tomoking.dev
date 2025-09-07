@@ -18,7 +18,7 @@
         </div>
     {{- end -}}
 
-    <article class="page single">
+    <article class="page single"{{ if or .Params.fontScale .Params.lineHeight }} style="{{ with .Params.fontScale }}--post-font-scale: {{ . }}; font-size: {{ printf "%.0f" (mul . 100) }}%;{{ end }}{{ with .Params.lineHeight }} --post-line-height: {{ . }}; line-height: {{ . }};{{ end }}"{{ end }}>
         {{- /* Title */ -}}
         <h1 class="single-title animate__animated animate__flipInX">{{ .Title | emojify }}</h1>
 

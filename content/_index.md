@@ -153,7 +153,7 @@ title: "Tomoki Arita"
 
 ## Blog
 
-[博士課程の姿勢について](/post/attitude/)
+[博士前期課程回顧録](/posts/attitude/)
 
 <div class="card-container">
   <!-- <div class="card">
