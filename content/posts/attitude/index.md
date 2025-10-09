@@ -11,7 +11,7 @@ toc:
   auto: true
 lightgallery: true
 fontScale: 1.1
-lineHeight: 1.7
+lineHeight: 1.8
 ---
 
 # 基本姿勢

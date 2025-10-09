@@ -17,8 +17,10 @@ title: "Tomoki Arita"
       - **June 2024 → March 2025**
   - Research Asssistant at AIST(産業技術総合研究所)
       - **Ongoing**
+      - マルチエージェント経路計画.
   - Part-time engineer at certain startup
       - **Ongoing**
+      - 自動運転，SLAM, etc.
 
 ## Projects / Honors
 
@@ -32,6 +34,10 @@ title: "Tomoki Arita"
   - スーパークリエータに認定頂きました．
     - [IPA公式サイト](https://www.ipa.go.jp/jinzai/mitou/koubo/career/2024/2024-supercreator-11.html)
 
+- **Tomoki Arita**，Toru Namerikawa，Probabilistic Multi-Agent Pose Graph Filtering on SE(3) via Distributed ADMM and Stein Particle Gradient Descent，SICE Journal of Control,
+Measurement，2025．
+- **Tomoki Arita**，Toru Namerikawa，Feature-Driven Field-of-View Overlap Assurance with Control Barrier Functions for Cooperative Visual Localization，The 2025 SICE Festival with Annual Conference，2025．
+[pdf](https://speakerdeck.com/allegorywrite/feature-driven-field-of-view-overlap-assurance-with-control-barrier-functions-for-cooperative-visual-localization)
 - **有田朋樹**，滑川徹，Stein Particle Filterを用いた単調環境における協調自己位置推定，計測自動制御学会　第12回制御部門マルチシンポジウム，2024．
 [pdf](https://speakerdeck.com/allegorywrite/stein-particle-filterwoyong-ita-dan-diao-huan-jing-niokeruxie-diao-zi-ji-wei-zhi-tui-ding)
 - **有田朋樹**，足助零弥，農業用小型ドローンによる果樹の栽培支援，KLL-ONE 学生ビジネスコンテスト優秀賞，2024．
@@ -67,6 +73,20 @@ title: "Tomoki Arita"
     <div class="card-content">
       <h3>未踏会議2024登壇 & LT</h3>
       <p>"蜂を機械化するAgriswarmの開発"<br>未踏会議に2024年度未踏IT採択者代表として登壇 & LTさせて頂きました．</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <a href="https://speakerdeck.com/allegorywrite/feature-driven-field-of-view-overlap-assurance-with-control-barrier-functions-for-cooperative-visual-localization" target="_blank">
+        <img src="/images/Screenshot from 2025-09-12 01-07-13.png" alt="論文">
+      </a>
+    </div>
+    <div class="card-content">
+      <h3>Feature-Driven Field-of-View Overlap Assurance with Control Barrier Functions for Cooperative Visual Localization
+      <div class="tag-badge python">python</div>
+      </h3>
+      <p>Tomoki Arita，Toru Namerikawa，The 2025 SICE Festival with Annual Conference，2025．</p>
     </div>
   </div>
 
@@ -154,6 +174,10 @@ title: "Tomoki Arita"
 ## Blog
 
 [博士前期課程回顧録](/posts/attitude/)
+
+[風の谷を読み，旅について考える](/posts/kazenotani_tabi/)
+
+<!-- [アブダビ探訪記](/posts/abduabi_tanhouki/) -->
 
 <div class="card-container">
   <!-- <div class="card">
