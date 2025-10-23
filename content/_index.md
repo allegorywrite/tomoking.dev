@@ -34,6 +34,8 @@ title: "Tomoki Arita"
   - スーパークリエータに認定頂きました．
     - [IPA公式サイト](https://www.ipa.go.jp/jinzai/mitou/koubo/career/2024/2024-supercreator-11.html)
 
+- **Tomoki Arita**，Keisuke Okumura，Local Guidance for Configuration-Based Multi-Agent Pathfinding，In Review，2025．
+[pdf](https://arxiv.org/pdf/2510.19072)
 - **Tomoki Arita**，Toru Namerikawa，Probabilistic Multi-Agent Pose Graph Filtering on SE(3) via Distributed ADMM and Stein Particle Gradient Descent，SICE Journal of Control,
 Measurement，2025．
 - **Tomoki Arita**，Toru Namerikawa，Feature-Driven Field-of-View Overlap Assurance with Control Barrier Functions for Cooperative Visual Localization，The 2025 SICE Festival with Annual Conference，2025．
@@ -48,6 +50,41 @@ Measurement，2025．
 , [site](https://sites.google.com/view/multi-agent-robot-planning-24)
 
 <div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <a href="" target="_blank" class="main-image">
+        <img src="/images/a2rl_eyecatch.gif" alt="a2rl">
+      </a>
+      <a href="https://a2rl.io/" target="_blank" class="sub-image">
+        <img src="/images/IMG_9731.jpg" alt="a2rl logo">
+      </a>
+    </div>
+    <div class="card-content">
+      <h3>Abu Dhabi Autonomous Racing League(A2RL)出場</h3>
+      <div class="tag-badge ros">ros</div>
+      <div class="tag-badge cpp">c++</div>
+      <div class="tag-badge tgm">TGM</div>
+      <div class="tag-badge a2rl">A2RL</div>
+      <p>[<a href="https://a2rl.io/" target="_blank">Infomation</a>, <a href="https://www.as-web.jp/overseas/1189488" target="_blank">Release</a>, <a href="https://superformula.net/sf3/team/12310/" target="_blank">TGM Grand Prix</a>, <a href="https://www.various-robotics.com/" target="_blank">Various Robotics</a>
+      ] UAEで行われたフォーミュラカー自動運転レースに唯一の日本チームTGM Grand Prixのメンバーとして初出場しました．現地では主にトンネル走行時におけるLiDARマッチングによるSLAMモジュールの開発を行いました．</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <a href="" target="_blank" class="main-image">
+        <img src="/images/lg_lacam.gif" alt="lg_lacam">
+      </a>
+    </div>
+    <div class="card-content">
+      <h3>Local Guidance for Configuration-Based Multi-Agent Pathfinding</h3>
+      <div class="tag-badge cpp">c++</div>
+      <div class="tag-badge mapf">MAPF</div>
+      <div class="tag-badge aist">AIST</div>
+      <p>[<a href="https://arxiv.org/pdf/2510.19072" target="_blank">arxiv</a>, <a href="https://github.com/allegorywrite/lg_lacam" target="_blank">github</a>] LG is an extension to LaCAM, introducing local guidance — a mechanism that supplies each agent with spatiotemporal hints during multi-agent pathfinding (MAPF). While global guidance provides coarse, static information about congestion mitigation, local guidance dynamically constructs agent-wise short-horizon plans to better handle local bottlenecks and congestion in real-time.</p>
+    </div>
+  </div>
+
   <div class="card">
     <div class="card-image">
       <a href="https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-1.html" target="_blank">
