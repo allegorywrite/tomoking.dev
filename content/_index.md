@@ -10,15 +10,18 @@ title: "Tomoki Arita"
   - 慶應義塾大学 理工学研究科 M2
       - 慶應理工 機械工学科 → システム統合工学専修 
       - 制御工学・マルチエージェント分野
-  - Ex Intern at Tokyo Robotics, Inc.
+  - 東京大学 技術経営戦略学専攻 松尾・岩澤研 博士課程進学予定
+      - ロボティクス・機械学習分野
+  - Ex Intern at Tokyo Robotics Inc.
       - **April 2022 → April 2024**
       - マルチエージェント経路計画，点群認識，模倣学習，etc.
   - 未踏IT'24 (落合陽一PM)
       - **June 2024 → March 2025**
+      - スーパークリエータ認定
   - Research Asssistant at AIST(産業技術総合研究所)
       - **Ongoing**
       - マルチエージェント経路計画.
-  - Part-time engineer at certain startup
+  - Part-time engineer at Various Robotics Inc.
       - **Ongoing**
       - 自動運転，SLAM, etc.
 
@@ -34,10 +37,10 @@ title: "Tomoki Arita"
   - スーパークリエータに認定頂きました．
     - [IPA公式サイト](https://www.ipa.go.jp/jinzai/mitou/koubo/career/2024/2024-supercreator-11.html)
 
-- **Tomoki Arita**，Keisuke Okumura，Local Guidance for Configuration-Based Multi-Agent Pathfinding，In Review，2025．
+- **Tomoki Arita**，Keisuke Okumura，Local Guidance for Configuration-Based Multi-Agent Pathfinding，Proceedings of AAAI Conference on Artificial Intelligence (AAAI)，2026．
 [pdf](https://arxiv.org/pdf/2510.19072)
 - **Tomoki Arita**，Toru Namerikawa，Probabilistic Multi-Agent Pose Graph Filtering on SE(3) via Distributed ADMM and Stein Particle Gradient Descent，SICE Journal of Control,
-Measurement，2025．
+Measurement(JCMSI)，2025．[site](https://www.tandfonline.com/doi/full/10.1080/18824889.2025.2570573#abstract)
 - **Tomoki Arita**，Toru Namerikawa，Feature-Driven Field-of-View Overlap Assurance with Control Barrier Functions for Cooperative Visual Localization，The 2025 SICE Festival with Annual Conference，2025．
 [pdf](https://speakerdeck.com/allegorywrite/feature-driven-field-of-view-overlap-assurance-with-control-barrier-functions-for-cooperative-visual-localization)
 - **有田朋樹**，滑川徹，Stein Particle Filterを用いた単調環境における協調自己位置推定，計測自動制御学会　第12回制御部門マルチシンポジウム，2024．
@@ -77,7 +80,7 @@ Measurement，2025．
       </a>
     </div>
     <div class="card-content">
-      <h3>Local Guidance for Configuration-Based Multi-Agent Pathfinding</h3>
+      <h3>[AAAI2026] Local Guidance for Configuration-Based Multi-Agent Pathfinding</h3>
       <div class="tag-badge cpp">c++</div>
       <div class="tag-badge mapf">MAPF</div>
       <div class="tag-badge aist">AIST</div>
@@ -214,7 +217,7 @@ Measurement，2025．
 
 [風の谷を読み，旅について考える](/posts/kazenotani_tabi/)
 
-<!-- [アブダビ探訪記](/posts/abduabi_tanhouki/) -->
+[アブダビ探訪記](/posts/abduabi_tanhouki/)
 
 <div class="card-container">
   <!-- <div class="card">

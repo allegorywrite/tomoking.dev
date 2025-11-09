@@ -15,3 +15,5 @@ lineHeight: 1.8
 ---
 
 hogehoge
+
+{{< image src="photo/2025-10-01_23-24-42_251.jpg" w="100%" r="5%" title="函館のBarにて" caption="函館のBarにて" >}}
