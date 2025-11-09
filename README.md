@@ -1,6 +1,6 @@
 # tomoking.dev
 
-有田朋樹のポートフォリオサイト（https://tomoking.dev/）
+有田朋樹のポートフォリオサイト（https://tomoking.dev）
 
 ## 概要
 
